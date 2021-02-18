@@ -1,5 +1,7 @@
 function criaProduto(){
     //retorna valores do formulário
+    // OBS.: para popular a tabela, poderíamos fazer uma chamada
+    // para alguma API ao invés de cadastrarmos na "mão"
     let nomeProduto = document.getElementById('nomeProduto').value 
     let precoProduto = document.getElementById('precoProduto').value 
     let qtdProduto = document.getElementById('qtdProduto').value 
